@@ -1,0 +1,332 @@
+body {
+    background-image: linear-gradient(black, grey);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-family: Staatliches;
+
+
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 36px;
+    color: white;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+#frontimg {
+    max-width: 70%;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    filter: sepia(85%) brightness(75%)
+}
+
+#welcome {
+    font-family: Staatliches;
+    color: white;
+    opacity: .85;
+    font-size: 360px;
+    left: 440px;
+    padding: 24px;
+    position: absolute;
+    top: 0px;
+    line-height: 80%;
+
+}
+
+.frontp {
+    font-family: Gloock;
+    color: white;
+    font-size: 72px;
+    max-width: 40%;
+    margin-left: 45%;
+    line-height: 120%;
+    padding: 30px;
+    top: 900px;
+    position: absolute;
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+.facebook {
+    position: absolute;
+    top: 1094px;
+    font-family: Staatliches;
+    color: black;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 12px;
+    background-color: goldenrod;
+    padding-bottom: 36px;
+    padding-left: 400px;
+    border-radius:15px;
+
+}
+h2{
+    font-family: Gloock;
+    color: goldenrod;
+    font-size: 72px;
+    max-width:80%;
+    margin-left: 30%;
+    margin-right:30%;
+    line-height: 120%;
+    margin-bottom:5%
+}
+table {
+    width: 46%;
+    position:absolute;
+margin-top:4px;}
+
+table,
+td {
+    margin-left:12%;
+    margin-right:auto;
+    color:white;
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+tr{
+    font-family:Staatliches;
+    font-size: 16px;
+}
+.tblctgry{
+    font-size:24px;
+    text-align:center;
+
+}
+.tblctgry2{
+    font-size:16px;
+    font-family: Gloock;
+    text-align:center;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+.tblhd{
+    font-size: 36px;
+    font-family: Gloock;
+    text-align: center;
+    background-color:brown;
+}
+img{
+    max-width: 24%;
+    margin-right: 12%;
+    margin-left:64%;
+    border-radius: 0px 0px 15px 15px;
+}
+.spool{
+    background-color: brown;
+    max-width: 24%;
+    margin-right: 12%;
+    margin-left:64%;
+    margin-top:24px;
+    padding:12px;
+    border-radius: 15px 15px 0px 0px;
+}
+h3{font-family: Gloock;
+    color: white;
+    font-size: 36px;
+    padding:12px;
+}
+p{
+    font-family: Staatliches;
+    font-size:16px;
+    color:black;
+}
+.wrapper{
+    background: goldenrod;
+    list-style-type: none;
+    padding:12px;
+    border-radius:15px;
+    width:20%;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: Staatliches;
+    color:black;
+    font-size:24px;
+}
+.formrow{
+    display:flex;
+    justify-content:flex-end;
+    padding:6px;
+}
+label{ margin-right: 12px;
+}
+.howardinfo{
+    background-color: brown;
+    max-width: 100%;
+    padding:12px;
+    font-size:16px;
+    margin-left:0;
+    margin-right:0;
+    position:relative; 
+}
+.howardinfop{
+    margin:5% 25% 5% 25%;
+    color:white;
+}
+.howardinforight{
+    background-color: brown;
+    top: 25%;
+    right:25%;
+    position:absolute;
+    font-family: Staatliches;
+}
+@media screen and (max-width:900px){
+
+    .howardinfo{
+        bottom:-80px
+    }
+    #welcome{
+        font-size: 90px;
+        top:220px;
+        left:20%;
+    }
+    .facebook{
+        top:480px;
+        left:-25%
+    }
+    .frontp{
+        top:440px;
+        font-size: 24px;
+        right:-2%
+    }
+    .spool{
+        padding:8px;
+        position:absolute;
+        bottom:-535px;
+        left:-400px;
+        border-radius: 15px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h2{
+        margin-left:10%;
+        margin-right:10%
+    }
+    table{
+        position:absolute;
+        width:70%;
+    }
+    #howardinfoproduct{
+        bottom: -1600px;
+    }
+    .howardinfop{
+        margin-left:12%;
+    }
+    .howardinfoforright{
+        margin-right:-25%;
+    }
+    #prdctimg{
+        padding:8px;
+        position:absolute;
+        bottom:-320px;
+        left:-400px;
+        border-radius:15px !important;
+        height:50px;
+    }
+    .wrapper{
+        width:50%;
+    }
+
+}
+@media screen and (max-width:428px){
+    .howardinfo{
+        bottom:-110px
+    }
+    #welcome{
+        font-size: 36px;
+        top:220px;
+        left:12%;
+    }
+    .facebook{
+        top:300px;
+        left:-95%;
+        padding-right: 36px;
+    }
+    .frontp{
+        top:290px;
+        font-size:16px;
+        right:8%
+    }
+    .spool{
+        padding:32px;
+        position:absolute;
+        bottom:-732px;
+        left:-180px;
+        max-width: 40%;
+        border-radius: 15px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h2{
+        margin-left:10%;
+        margin-right:10%;
+        font-size: 36px;
+    }
+    table{
+        position:absolute;
+        width:70%;
+    }
+    #howardinfoproduct{
+        bottom: -1445px;
+        padding:36px;
+    }
+    .howardinfop{
+        margin-left:12%;
+        padding:180px 24px 24px 24px;
+        margin:16px;
+    }
+    .howardinfoforright{
+        margin-right:-25%;
+    }
+    #prdctimg{
+        display:none;
+    }
+    .wrapper{
+        width:80%;
+    }
+    #howardinfothx{
+        bottom:-70px;
+
+    }
+    #thxp{
+        color:white;
+    }
+    #thx{
+        margin-left:auto;
+        margin-right:auto;
+        color:goldenrod;
+        background-color: goldenrod;
+        padding: 32px;
+    }
+}
